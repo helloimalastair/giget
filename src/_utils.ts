@@ -6,7 +6,6 @@ import { homedir } from "node:os";
 import { promisify } from "node:util";
 import type { Agent } from "node:http";
 import { relative, resolve } from "pathe";
-import { fetch } from "node-fetch-native";
 import type { GitInfo } from "./types";
 
 export async function download(
